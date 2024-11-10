@@ -1,0 +1,13 @@
+stupid sohel mental guy the code is about reversing the number.
+import java.util.*;
+public static void main(String,args[]){
+Scanner sc = new Scanner(System.in);
+int n = sc.nextInt();
+while(n>0){
+n=n%10;
+System.out.println(n);
+n=n/10;
+}
+}
+input: 123
+output:
